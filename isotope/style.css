@@ -1,0 +1,26 @@
+.filter ul{
+    list-style: none;
+    text-align: center;
+}
+.filter ul li{
+    display: inline-block;
+    /* background: red; */
+    margin: 0px 20px;
+    padding: 5px 18px;
+    border: 1px solid tomato;
+    cursor: pointer;
+}
+.filter ul li:hover, .active{
+    background: tomato;
+    color: white;
+}
+.col-md-4 img{
+    width: 100% !important;
+    max-width: 350px !important;
+    height: 100% !important;
+    margin: 10px 0 !important;
+    max-height: 199px !important;
+}
+.col-md-4{
+margin: 10px 0;
+}
