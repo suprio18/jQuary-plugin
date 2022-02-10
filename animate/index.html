@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Document</title>
+    <style>
+        .box{
+            width: 80%;
+            height: 150px;
+            margin: 100px auto;
+        }
+    </style>
+</head>
+<body>
+    <div  style="background-color:red" class="box" data-aos="fade-up">Fade Up</div>
+    <div style="background-color:orange" data-aos="fade-up-right" class="box">Fade Up Right</div>
+    <div style="background-color:yellow" data-aos="zoom-in" class="box" >Zoom in</div>
+    <div style="background-color:green" data-aos="fade-in" class="box">Fade In</div>
+    <div style="background-color:purple" data-aos="flip-right"  class="box">Flip Right</div>
+    <div style="background-color:tomato" data-aos="slide-up" class="box">Slide Up</div>
+    <div style="background-color:pink" data-aos="slide-right" class="box">Flip Down</div>
+    
+    <script>
+        AOS.init({
+            duration: 1000,
+            delay: 1000,
+            once: true,
+            easing: 'ease'
+        });
+      </script>
+</body>
+</html>
