@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap 5 CSS CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootsrap 5 JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- CUSTOM CSS (MUST USE FOR STICK UP MENU) -->
+<style>
+    .isStuck{
+    left:0px;
+    width:100%;
+}
+
+.navbar-wrapper {
+    width: 100%;
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+
+}
+
+</style>
+
+
+</head>
+<body>
+    <div class="py-5 bg-success"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-wrapper navbar-dark bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+          <div class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti labore deserunt magni ipsa voluptatum nam repellat, repudiandae molestiae dolorem laboriosam dolorum, mollitia eius ab quis facilis blanditiis accusamus fuga est voluptas. Illum, provident optio? Nesciunt quisquam laboriosam sunt aut ut accusantium neque rem deleniti. Officiis, facilis sint earum tempora a, accusamus non ad, beatae iste delectus vero magni. Placeat possimus repellendus aliquid harum, nostrum quia vitae fuga iusto? Mollitia laborum autem enim esse itaque odio aliquam, quidem ratione sint illo voluptate voluptatibus dolorem, rem impedit nesciunt amet commodi reiciendis quisquam consequatur fugit totam quia sapiente libero? Expedita delectus illum facilis. Incidunt sequi accusantium consequuntur, debitis, quo mollitia autem, qui sapiente ex maxime dicta a. Velit sapiente quia magni rerum, minima, nisi fugit modi eligendi dignissimos deserunt minus magnam. Deserunt, molestiae natus? Sapiente dolore, explicabo harum consequuntur asperiores perferendis! Itaque eaque tenetur eos iure provident fuga esse aliquid maiores commodi ducimus quae tempore autem a, nihil vero repellat, rerum harum tempora? Ab rerum accusamus dolorem aperiam tempore eligendi voluptatum reiciendis tempora at inventore, veritatis excepturi quod nisi incidunt dicta non labore sapiente eum ad blanditiis consectetur vero omnis quam libero! Fuga aperiam id repellendus cum laborum soluta doloribus consectetur, ducimus eveniet suscipit corrupti similique, reiciendis illo dicta a. Saepe, error iste fugiat delectus aliquid nobis! Delectus consequatur quam odio autem illo ab totam aperiam, voluptates facere doloremque voluptatum ipsum vel veritatis vitae eveniet sed asperiores ea tenetur distinctio reprehenderit eaque! Ipsam, mollitia! Eligendi ullam quidem a temporibus vero ipsum, blanditiis mollitia nisi ex dolorum quia corrupti illo labore perferendis architecto esse officia impedit dolores! Sint laboriosam labore rerum voluptas corrupti, voluptatem nemo ut quam, dolorem delectus dignissimos maiores, reprehenderit omnis ducimus sequi? Ipsam at, blanditiis voluptatibus officiis, error aperiam, culpa impedit dicta iste labore accusamus unde facere exercitationem alias nisi? Nostrum magni illo odit, non laudantium, nobis est quaerat vel ipsum aliquid quod. Voluptate beatae, laboriosam vel labore amet eveniet autem velit quas quod pariatur magni earum ipsum ipsam sint blanditiis illum, aut ea ad voluptatem ut? Facilis dolore autem libero, voluptatem, iste cupiditate quo sint dignissimos, delectus aut minus non. Tempora sint, aut cupiditate at enim sit alias ullam ex iste nam porro facilis accusantium soluta optio, architecto et laborum officia ut dolorem? Corrupti cum iste temporibus facilis porro quae molestias voluptatibus exercitationem ea tempore, ipsam blanditiis, officia consectetur amet molestiae, nam vel hic. Accusamus asperiores rem veniam temporibus eos qui iure soluta explicabo sit eveniet, distinctio velit unde autem, dolorum laborum atque nulla voluptatum aspernatur assumenda sint quibusdam. Modi porro ut molestias aspernatur illo alias perferendis amet omnis! Consequuntur aliquid, exercitationem in ipsam, natus tenetur eligendi hic harum sint corporis omnis. Illum culpa commodi a sint veniam fugit similique voluptates quia accusantium fuga nam cumque dignissimos odio laborum, magni esse rem minus necessitatibus praesentium, sapiente veritatis ea vero. Adipisci ratione provident, placeat laborum dicta error quas cupiditate quia ipsam atque beatae nesciunt suscipit repudiandae labore fugiat enim deserunt sunt voluptatum aliquid perferendis quod ab cum! Velit minus ab minima.
+          </div>
+      </div>
+
+
+
+<script src="stickUp.min.js"></script>
+<script type="text/javascript">
+   jQuery(function($) {
+                $(document).ready( function() {
+                  //enabling stickUp on the '.navbar-wrapper' class
+                  $('.navbar-wrapper').stickUp();
+                });
+              });
+</script>
+    
+</body>
+</html>
