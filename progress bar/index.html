@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="jquery.rprogessbar.min.css">
+    <script src="jQuery.rProgressbar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
+
+        :root {
+            --body-font: 'Poppins', sans-serif;
+        }
+
+        * {
+            font-family: var(--body-font);
+        }
+        section{
+            width: 90%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div style="margin: 1500px 0;"></div>
+        <div>
+            <h4 class="title">WEB DESIGN</h4>
+            <div class="design"></div>
+        </div>
+
+        <div>
+            <h4 class="title">GRAPHICS</h4>
+            <div class="graphics"></div>
+        </div>
+
+        <div class="">
+            <h4 class="title">PHP</h4>
+            <div class="php"></div>
+        </div>
+        <div>
+            <h4 class="title">DIGITAL MERKETING</h4>
+            <div class="marketing"></div>
+        </div>
+
+    </section>
+
+</body>
+
+<script>
+    $('.design').rProgressbar({
+        percentage: 80,
+        fillBackgroundColor: '#ed1c24',
+        backgroundColor: '#EEEEEE',
+    });
+    $('.marketing').rProgressbar({
+        percentage: 70,
+        fillBackgroundColor: '#931ced',
+        backgroundColor: '#EEEEEE',
+    });
+    $('.graphics').rProgressbar({
+        percentage: 90,
+        fillBackgroundColor: 'purple',
+        backgroundColor: '#EEEEEE',
+    });
+
+    $('.php').rProgressbar({
+        percentage: 70,
+        fillBackgroundColor: 'blue',
+        backgroundColor: '#EEEEEE',
+    });
+
+</script>
+
+</html>
